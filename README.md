@@ -1,21 +1,110 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 FlowState AI
 
-# Run and deploy your AI Studio app
+> An Adaptive AI Productivity Ecosystem designed to transform task management into an intelligent, personalized, and emotionally aware productivity experience.
 
-This contains everything you need to run your app locally.
+![Banner](assets/banner.png)
 
-View your app in AI Studio: https://ai.studio/apps/079aa36b-37bc-48b0-9acd-eb311b375226
+## 📖 Overview
 
-## Run Locally
+FlowState AI is a next-generation productivity platform that goes beyond conventional to-do lists and note-taking applications. It leverages Artificial Intelligence to understand user behavior, optimize workflows, and provide intelligent recommendations that enhance focus, consistency, and long-term productivity.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+The platform is designed around the philosophy that productivity should adapt to the individual—not the other way around.
 
+---
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## ✨ Key Features
+
+- 🧠 AI-powered task prioritization
+- 📅 Intelligent daily planning
+- 🎯 Adaptive productivity recommendations
+- 📈 Progress tracking & analytics
+- 🔔 Smart reminders
+- 🌙 Focus Mode
+- 💡 Personalized productivity insights
+- 🤖 AI assistant integration
+- 🎨 Modern Material Design UI
+
+---
+
+## 🏗️ Tech Stack
+
+- Kotlin
+- Android Studio
+- Google AI Studio
+- Gemini API
+- Gradle
+
+---
+
+## 📱 Architecture
+
+```
+User
+   │
+   ▼
+FlowState AI App
+   │
+   ├── Task Manager
+   ├── AI Recommendation Engine
+   ├── Productivity Analytics
+   ├── Notification System
+   └── Gemini AI Integration
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/parthg2106/FlowState-AI-.git
+```
+
+### Open
+
+Open the project in Android Studio.
+
+### Configure
+
+Add your Gemini API key.
+
+```
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+### Run
+
+```
+Run ▶
+```
+
+---
+
+## 📌 Roadmap
+
+- [ ] AI Habit Coach
+- [ ] Smart Calendar Integration
+- [ ] Voice Assistant
+- [ ] Cross-device Sync
+- [ ] AI Focus Sessions
+- [ ] Team Collaboration
+- [ ] Wear OS Support
+
+---
+
+## 👨‍💻 Author
+
+**Parth Ghodke**
+
+Computer Science & Engineering Student
+
+AI • Android Development • Automation • Intelligent Systems
+
+GitHub: https://github.com/parthg2106
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
