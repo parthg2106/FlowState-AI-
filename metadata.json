@@ -1,0 +1,6 @@
+{
+  "name": "FlowState",
+  "description": "Sleek, AI-powered adaptive productivity companion and schedule optimizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
